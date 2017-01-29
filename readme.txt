@@ -31,3 +31,4 @@ git reset HEAD readme.txt:3.修改后的内容添加到暂存区了，没有提�
 rm text.txt:删除文件，在没有commit之前，可以用git checkout -- text.txt恢复
 分支
 --no-ff merge text
+101
