@@ -1,6 +1,7 @@
 git is a distributed version control system
 git is free software
 git has a mutable index called stage
+git tracks
 
 工作区(WORKING Directory)：即learnGit
 版本库(Repository)：位于工作区中一个隐藏目录.git，这不是工作区而是git的版本库
@@ -9,7 +10,7 @@ add命令将工作区的内容提交到暂存区(STAGE)，commit命令将暂存�
 commd:
 git init:初始化仓库
 git add:添加文件到仓库
-git commit -m "":提交
+git commit -m "":提交(只会把暂存区的内容提交修改,如果修改后的内容没有add加入暂存区，就不会记录这次修改)
 git status:查看仓库状态
 git diff：查处仓库有哪些改变
 HEAD:指向当前版本
