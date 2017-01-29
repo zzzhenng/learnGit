@@ -2,6 +2,7 @@ git is a distributed version control system
 git is free software
 git has a mutable index called stage
 git track changes
+git another
 
 工作区(WORKING Directory)：即learnGit
 版本库(Repository)：位于工作区中一个隐藏目录.git，这不是工作区而是git的版本库
@@ -20,3 +21,4 @@ git reset --hard HEAD^:返回历史上的那个版本(一个^表示上一个，�
 git reset hard commit_id:要想再次回到未来的版本使用commit_ID
 git reflog：显示了每一次提交的情况，可以用来查找commit_id(要重返未来，
 用git reflog查看命令历史，以便确定要回到未来的哪个版本。)
+git diff HEAD -- readme.txt:查看工作区与版本库里最新版本的区别
