@@ -1,7 +1,7 @@
 git is a distributed version control system
 git is free software
 git has a mutable index called stage
-git tracks
+git track changes
 
 工作区(WORKING Directory)：即learnGit
 版本库(Repository)：位于工作区中一个隐藏目录.git，这不是工作区而是git的版本库
